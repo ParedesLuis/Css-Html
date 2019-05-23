@@ -12,10 +12,23 @@
 }
 
 .elemento{
+
+    /*flex-grow:1 le da el 100% a todos los elementos para que abarquen
+    y si se lo aplicamos a un solo elemento crece dependiendo a los demas
+    se pone para poner a crecer en proporciones los elementos 
+
+    flex-shrink:1 este es el contrario en vez de crecer se encoje!
+
+    order: nume; posiciona los elementos en el orden que queramos
+    ponemos en el contenedor padre order y en hijo order para que se acomoden
+    
+    align-self:;
+    para alinear un solo item con respecto a los demas!
+    */
     color: #fff;
     margin: 5px;
     width: 50px;
-     height: 50px; 
+    height: 50px; 
     background: #E67E22;
     text-align: center;
 }
