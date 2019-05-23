@@ -1,31 +1,28 @@
 .contenedor{
     width: 500px;
-    height: 200px;
+    height: 500px;
     background: #fff;
     padding: 10px;
     border: 10px solid #2C3E50;
     margin: 20px;
     display: flex;
     /*
-    align items.
-    alinea los items verticalmente
-    flex-end los pone abajo del contenedor
-    center al centro
-    stretch los elementos hace abarcar un 100% del anch
-el heigth tiene que se auto 
-
-
-
+    -align content.
+    es lo mismo pero nos sirve para centrar grupos de elementos 
+    para 2 o mas filas!
+    con los mismo parametros que align items
+    
     */
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    /*no pega los items y los centra!*/
     
 }
 
 .elemento{
     color: #fff;
     margin: 5px;
-    width: 150px;
+    width: 200px;
      height: 50px; 
     background: #E67E22;
     text-align: center;
