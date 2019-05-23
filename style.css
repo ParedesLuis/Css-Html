@@ -6,13 +6,9 @@
     border: 10px solid #2C3E50;
     margin: 20px;
     display: flex;
-    /*flex-wrap: wrap|no-wrap|wrap-reverse
-    lo que hace es que si un elemnto no cabe lo acomoda 
-    depende de el parametro de wrap
-    */
-   /* flex-wrap: no-wrap; para tenerlos todos en una linea no respeta el width
-      flex-wrap: wrap; con este se acomodan uno debajo de otro en orden
-      flex-wrap: wrap-reverse; con este se acomodan uno debajo de otro pero al revez*/
+    /*flex-flow,
+    recibe 2 valores el valor de flex-direction y el valor de flex-wrap
+    es un atajo directo a los otros 2*/
 }
 
 .elemento{
