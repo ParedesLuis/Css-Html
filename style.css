@@ -6,9 +6,15 @@
     border: 10px solid #2C3E50;
     margin: 20px;
     display: flex;
-    /*flex-flow,
-    recibe 2 valores el valor de flex-direction y el valor de flex-wrap
-    es un atajo directo a los otros 2*/
+    /*Justify-content: flexstart|flex-end|center|space-around|space-between
+        decidir la posicion y distribuir espacion libres
+        flex-end se posicionan a la derecha sin alterar el orden
+        center centra el contenido
+        space-around los elemento los distribuye por todo el ancho
+        space-between lo mismo pero al incio y al final no hay margenes
+        
+    */
+    
 }
 
 .elemento{
