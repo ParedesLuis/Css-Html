@@ -1,0 +1,16 @@
+div{
+  width: 100px;
+  height: 100px;       
+  background: #4A88F4;
+  color: black;
+  font-size: 30px;
+}
+/*4 tipos de posicionamiento*/
+.caja{
+    position: relative; /*posicionar una caja y despues desplzarala dejando espacion vacio*/
+    top: 50px;
+    left:150px ;
+
+
+
+}
