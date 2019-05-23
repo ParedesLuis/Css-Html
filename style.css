@@ -9,8 +9,7 @@ div{
 
 .caja{
 
-   position: fixed; /* coordenadas por la pantalla pero el elemento se queda pegado */ 
-   top: 100px;
-   left: 300px;
+   position: static; /* el elemento se queda estatico en donde esta es el por defecto */ 
+  
 
 }
