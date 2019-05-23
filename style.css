@@ -6,11 +6,16 @@ div{
   font-size: 30px;
 }
 /*4 tipos de posicionamiento*/
+.caja-padre{
+    width: 500px;
+    height: 500px;       
+    background: black;
+   position: relative;/*al colocarle el relative la caja se posiciona con respecto a este elemento*/
+}
 .caja{
-    position: relative; /*posicionar una caja y despues desplzarala dejando espacion vacio*/
-    top: 50px;
-    left:150px ;
 
-
+    position: absolute; /*deja el espacio libre y ignora los elementos abyacentes*/
+    top: 100px;
+    left: 150px;
 
 }
