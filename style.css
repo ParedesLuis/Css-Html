@@ -1,28 +1,20 @@
 .contenedor{
     width: 500px;
-    height: 500px;
+    height: 200px;
     background: #fff;
     padding: 10px;
     border: 10px solid #2C3E50;
     margin: 20px;
     display: flex;
-    /*
-    -align content.
-    es lo mismo pero nos sirve para centrar grupos de elementos 
-    para 2 o mas filas!
-    con los mismo parametros que align items
-    
-    */
-    flex-wrap: wrap;
-    align-content: center;
-    /*no pega los items y los centra!*/
+    align-items: center;
+    justify-content: center;
     
 }
 
 .elemento{
     color: #fff;
     margin: 5px;
-    width: 200px;
+    width: 50px;
      height: 50px; 
     background: #E67E22;
     text-align: center;
