@@ -4,12 +4,6 @@ div{
   background: #4A88F4;
   color: black;
   font-size: 30px;
-}
-/*4 tipos de posicionamiento*/
 
-.caja{
-
-   position: static; /* el elemento se queda estatico en donde esta es el por defecto */ 
-  
-
+  float: left; /*desplazar todas las cajas a la izquierda o a la derecha*/
 }
