@@ -6,14 +6,19 @@
     border: 10px solid #2C3E50;
     margin: 20px;
     display: flex;
-    /*Justify-content: flexstart|flex-end|center|space-around|space-between
-        decidir la posicion y distribuir espacion libres
-        flex-end se posicionan a la derecha sin alterar el orden
-        center centra el contenido
-        space-around los elemento los distribuye por todo el ancho
-        space-between lo mismo pero al incio y al final no hay margenes
-        
+    /*
+    align items.
+    alinea los items verticalmente
+    flex-end los pone abajo del contenedor
+    center al centro
+    stretch los elementos hace abarcar un 100% del anch
+el heigth tiene que se auto 
+
+
+
     */
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -21,7 +26,7 @@
     color: #fff;
     margin: 5px;
     width: 150px;
-    height: 50px;
+     height: 50px; 
     background: #E67E22;
     text-align: center;
 }
