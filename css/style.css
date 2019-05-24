@@ -52,8 +52,7 @@ color:white;
 }
 
 .products{
-    background-image: url("./imgs/curve.png");
-    max-height: 50px;
+    background-image: url("../imgs/curve.png");
     background-size: cover; /*cover para que ocupe el 100 del contenedor*/
     background-position: center top;
     padding: 20%;
@@ -90,22 +89,20 @@ color:white;
 /* ---------------------------Cards----------------------------------------- */
 
 .cards{
-    padding: 50px;
+    padding: 10%;
     display: flex;
-    justify-content: center;
-   
+    
     
 }
-
-.cards .card-content img{
-    height: 113px;
-    width: 138px;
+.cards img{
+    max-height: 100px
 }
-.cards .card-content{
+.card-content p{
+    text-align: justify;
+}
+ .card-content{
     text-align: center;
-    height: 150px;
-    width: 150px;
-    padding:100px;   
+    padding:20px;   
 }
 hr{
     border: 0; 
@@ -120,8 +117,8 @@ hr{
     padding: 50px;
 }
 
-.cards-2 .card-content-2 img{
-    width: 250px;
+.cards-2 img{
+    width: 100%;
 }
 .cards-2{
 
@@ -133,8 +130,6 @@ hr{
     text-align: center;
     box-shadow: 0 0 4px #c1bcbc;
     
-    width: 250px;
-    margin: 5px;
 }
 /* -----------------------------footer----------------------------- */
 

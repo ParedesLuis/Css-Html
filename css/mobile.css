@@ -1,0 +1,20 @@
+@media (max-width: 600px){ /*acomodarlo que funcion despues de los 600px*/
+
+    .products{
+        display: inherit;
+        height: auto;
+    }
+
+    .product{
+        margin-top: auto;
+    }
+
+    .Main-Seccion{
+        padding: 4%;
+    }
+    .cards, .cards-2{
+        display: inherit;
+       
+    }
+
+}
