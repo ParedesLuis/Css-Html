@@ -87,3 +87,64 @@ color:white;
     background-color: var(--green-color-over);
     
 }
+/* ---------------------------Cards----------------------------------------- */
+
+.cards{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.cards .card-content img{
+    height: 113px;
+    width: 138px;
+}
+.cards .card-content{
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    padding:100px;   
+}
+hr{
+    border: 0; 
+    height: 1px; 
+    background: #c1bcbc;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.mencion{
+    text-align: center;
+    padding: 50px;
+}
+
+.cards-2 .card-content-2 img{
+    width: 250px;
+}
+.cards-2{
+
+    display: flex;
+    justify-content: center;
+
+}
+.cards-2 .card-content-2{
+    text-align: center;
+    box-shadow: 0 0 4px #c1bcbc;
+    
+    width: 250px;
+    margin: 5px;
+}
+/* -----------------------------footer----------------------------- */
+
+footer{
+    background: gray;
+    color: white;
+    margin-top:100px; 
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
