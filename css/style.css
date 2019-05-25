@@ -143,3 +143,27 @@ footer{
     align-items: center;
     padding: 15px;
 }
+/*-------------------------------------------venta----------------------*/
+
+.modulo-pago{
+    
+    background-color: white;
+    box-shadow: 0 0 4px #c1bcbc;
+    padding: 10px;
+    margin-top:110px; 
+    
+
+}
+.data{
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.imag-pg{
+    max-width: 150px;
+    margin: auto;
+}
